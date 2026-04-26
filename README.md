@@ -1,4 +1,4 @@
-screen_wrap.c is for left and right wrap only.  screen_wrap_all.c is for up and down as well
+screen_wrap.c is for left and right wrap only.  screen_wrap_all.c is for up and down as well So if you want to do left and right and up and down, use the commands below but compile screen_wrap_all.c
 
 X11 Screen Wrap
 
