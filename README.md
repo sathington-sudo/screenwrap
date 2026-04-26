@@ -1,3 +1,5 @@
+screen_wrap.c is for left and right wrap only.  screen_wrap_all.c is for up and down as well
+
 X11 Screen Wrap
 
 A lightweight, efficient utility for Debian 13 ("Trixie") and other X11-based Linux distributions that enables "infinite loop" mouse movement across dual monitors.
@@ -21,8 +23,7 @@ echo $XDG_SESSION_TYPE
 Development Libraries
 To compile the source code on Debian, install the necessary build tools and X11 headers:
 
-sudo apt update
-sudo apt install build-essential libx11-dev
+sudo apt update && sudo apt install build-essential libx11-dev
 
 Compilation
 
