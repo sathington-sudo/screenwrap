@@ -33,9 +33,16 @@ gcc -o screen_wrap screen_wrap.c -lX11
 
 Usage
 
-Manual ExecutionRun the program directly from your terminal to test functionality:./screen_wrap
-Press Ctrl+C in the terminal to stop the program.Background ExecutionTo run the utility in the background (so it persists after you close your terminal), use nohup:nohup ./screen_wrap > /dev/null 2>&1 &
-Stopping the Background ProcessTo terminate the program while it is running in the background:pkill screen_wrap
+Manual ExecutionRun the program directly from your terminal to test functionality:
+
+./screen_wrap
+
+Press Ctrl+C in the terminal to stop the program.Background Execution
+To run the utility in the background (so it persists after you close your terminal), use nohup:  
+
+nohup ./screen_wrap > /dev/null 2>&1 &
+
+Stopping the Background ProcessTo terminate the program while it is running in the background:  pkill screen_wrap
 
 How it Works
 
